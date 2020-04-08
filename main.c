@@ -82,29 +82,6 @@ static void loramac_send(char* payload){
 	semtech_loramac_set_tx_mode(&loramac, cnf);
 	semtech_loramac_set_tx_port(&loramac, port);
 
-	switch (semtech_loramac_send(&loramac,
-								 (uint8_t *)payload, strlen(payload))) {
-		case SEMTECH_LORAMAC_NOT_JOINED:
-			puts("ERROR Cannot send: not joined");
-			return;
-
-		case SEMTECH_LORAMAC_DUTYCYCLE_RESTRICTED:
-			puts("ERROR Cannot send: dutycycle restriction");
-			return;
-
-		case SEMTECH_LORAMAC_BUSY:
-			puts("ERROR Cannot send: MAC is busy");
-			return;
-
-		case SEMTECH_LORAMAC_TX_ERROR:
-			puts("ERROR Cannot send: error");
-			return;
-
-		case SEMTECH_LORAMAC_TX_CNF_FAILED:
-			puts("ERROR Fail to send: no ACK received");
-			return;
-	}
-
 	printf("SUCCESS: %s\n", payload);
 }
 
