@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/cpu/vectors.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/cpu/vectors.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/stm32l0/vectors.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/vectors_cortexm.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/stm32l0/include/cpu_conf.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
@@ -18,7 +18,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/vectors_cortexm.h:
 

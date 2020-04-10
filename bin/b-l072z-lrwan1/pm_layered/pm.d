@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/pm_layered/pm.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/pm_layered/pm.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/sys/pm_layered/pm.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/irq.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/pm.h \
@@ -60,7 +60,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/debug.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/thread.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/irq.h:
 

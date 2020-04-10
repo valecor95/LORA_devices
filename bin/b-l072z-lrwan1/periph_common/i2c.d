@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/periph_common/i2c.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/periph_common/i2c.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/periph_common/i2c.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/errno.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/errno.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/reent.h \
@@ -66,7 +66,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/dev_enums.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/byteorder.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/errno.h:
 

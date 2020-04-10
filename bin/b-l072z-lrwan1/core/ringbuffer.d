@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/core/ringbuffer.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/core/ringbuffer.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/ringbuffer.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/ringbuffer.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/string.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/_ansi.h \
@@ -19,7 +19,7 @@
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/cdefs.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/string.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/ringbuffer.h:
 

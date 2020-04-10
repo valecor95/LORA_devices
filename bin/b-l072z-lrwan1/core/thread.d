@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/core/thread.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/core/thread.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/thread.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/errno.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/errno.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/reent.h \
@@ -58,7 +58,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/bitarithm.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/sched.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/errno.h:
 

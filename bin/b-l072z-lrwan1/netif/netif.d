@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/netif/netif.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/netif/netif.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/sys/net/netif/netif.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/string.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/_ansi.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/newlib-nano/newlib.h \
@@ -31,7 +31,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/panic.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/kernel_defines.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/string.h:
 

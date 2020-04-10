@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/semtech_loramac_contrib/semtech_loramac.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/semtech_loramac_contrib/semtech_loramac.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/pkg/semtech-loramac/contrib/semtech_loramac.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/string.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/_ansi.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/newlib-nano/newlib.h \
@@ -92,17 +92,17 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/sx127x/include/sx127x_params.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/sx127x/include/sx127x_netdev.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/pkg/semtech-loramac/include/semtech_loramac.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/pkg/semtech-loramac/include/semtech-loramac/timer.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMacTest.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMacTest.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/eeprom.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/debug.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/thread.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/string.h:
 
@@ -286,17 +286,17 @@
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/pkg/semtech-loramac/include/semtech_loramac.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/pkg/semtech-loramac/include/semtech-loramac/timer.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMacTest.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMacTest.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/eeprom.h:
 

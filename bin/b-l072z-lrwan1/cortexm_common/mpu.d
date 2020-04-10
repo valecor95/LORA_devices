@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/cortexm_common/mpu.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/cortexm_common/mpu.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/mpu.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/assert.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/panic.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/kernel_defines.h \
@@ -55,7 +55,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/sched.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/mpu.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/assert.h:
 

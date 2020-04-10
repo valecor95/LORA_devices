@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/semtech_loramac_contrib/semtech_loramac_radio.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/semtech_loramac_contrib/semtech_loramac_radio.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/pkg/semtech-loramac/contrib/semtech_loramac_radio.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/sys/include/net/lora.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/stdint.h \
@@ -88,11 +88,11 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/gpio.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/sx127x/include/sx127x_internal.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/sx127x/include/sx127x_netdev.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/debug.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/thread.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/sys/include/net/lora.h:
 
@@ -268,7 +268,7 @@
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/sx127x/include/sx127x_netdev.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/debug.h:
 

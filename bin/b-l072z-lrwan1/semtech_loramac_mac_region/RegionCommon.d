@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/semtech_loramac_mac_region/RegionCommon.o: \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/RegionCommon.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/semtech_loramac_mac_region/RegionCommon.o: \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/RegionCommon.c \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/math.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/reent.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/_ansi.h \
@@ -16,13 +16,13 @@
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/lock.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/cdefs.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/_ansi.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/boards/utilities.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/boards/utilities.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/stdint.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/_intsup.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/_stdint.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/RegionCommon.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/RegionCommon.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/pkg/semtech-loramac/include/semtech-loramac/timer.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/sys/include/xtimer.h \
@@ -92,10 +92,10 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/gpio.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/spi.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/gpio.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/math.h:
 
@@ -127,7 +127,7 @@
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/_ansi.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/boards/utilities.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/boards/utilities.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h:
 
@@ -137,9 +137,9 @@
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/_stdint.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/RegionCommon.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/RegionCommon.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/LoRaMac.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h:
 
@@ -279,6 +279,6 @@
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/drivers/include/periph/gpio.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/radio/radio.h:
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/pkg/b-l072z-lrwan1/semtech-loramac/src/mac/region/Region.h:

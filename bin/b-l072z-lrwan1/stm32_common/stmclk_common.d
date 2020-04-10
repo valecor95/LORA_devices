@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/stm32_common/stmclk_common.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/stm32_common/stmclk_common.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/stm32_common/stmclk_common.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/cpu.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/stdio.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/_ansi.h \
@@ -61,7 +61,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/boards/common/stm32/include/cfg_i2c1_pb8_pb9.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/boards/common/stm32/include/cfg_timer_tim2.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/cortexm_common/include/cpu.h:
 

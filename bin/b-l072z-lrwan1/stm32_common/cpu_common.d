@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/stm32_common/cpu_common.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/stm32_common/cpu_common.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/stm32_common/cpu_common.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/boards/b-l072z-lrwan1/include/periph_conf.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/stm32l0/include/periph_cpu.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/cpu/stm32_common/include/periph_cpu_common.h \
@@ -62,7 +62,7 @@
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/debug.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/thread.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/boards/b-l072z-lrwan1/include/periph_conf.h:
 

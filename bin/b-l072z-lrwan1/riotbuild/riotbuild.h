@@ -6,7 +6,7 @@
 #define STM32_FLASHSIZE 196608U
 #define CPU_MODEL_STM32L072CZ 1
 #define CPU_ARCH_CORTEX_M0PLUS 1
-#define RIOT_APPLICATION "tests_pkg_semtech-loramac"
+#define RIOT_APPLICATION "tests_LORA_devices"
 #define BOARD_B_L072Z_LRWAN1 "b-l072z-lrwan1"
 #define RIOT_BOARD BOARD_B_L072Z_LRWAN1
 #define CPU_STM32L0 "stm32l0"

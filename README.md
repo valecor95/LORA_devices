@@ -18,10 +18,6 @@ Note: you can also use the RIOT development code (e.g the master branch) but thi
 
       export PATH=/opt/gcc-arm-none-eabi-7-2018-q2-update/bin:$PATH
 
-Build the LoRaWAN test application provided by RIOT.
-
-      make -C tests/pkg_semtech-loramac clean all
-
 Use the CLI-Tools to flash the ST LoRa node with the LoRaWAN firmware that you have just built. Here we use st-lrwan1-1 but it may change in your case:
 
       iotlab-node --update tests/LORA_devices/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1

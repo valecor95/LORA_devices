@@ -1,6 +1,6 @@
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/fmt/fmt.o: \
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/fmt/fmt.o: \
  /home/valerio/Scrivania/RIOT_devices/RIOT/sys/fmt/fmt.c \
- /home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
+ /home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/assert.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/panic.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/kernel_defines.h \
@@ -32,7 +32,7 @@
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/string.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/sys/include/fmt.h
 
-/home/valerio/Scrivania/RIOT_devices/RIOT/tests/pkg_semtech-loramac/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
+/home/valerio/Scrivania/RIOT_devices/RIOT/tests/LORA_devices/bin/b-l072z-lrwan1/riotbuild/riotbuild.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/assert.h:
 
