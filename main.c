@@ -133,7 +133,9 @@ static char* buildPayload(char* id){
     int wind_intensity = (rand() % (100 - 0 + 1)) + 0;
     int rain_height = (rand() % (50 - 0 + 1)) + 0;
 
-    char* payload = malloc(sizeof(char)*250);
+    printf("DATA = %.f", getTime());
+
+    char* payload = malloc(sizeof(char)*300);
 	sprintf(payload, "{\"deviceId\": \"%s\",\"temperature\": %d,\"humidity\": %d,\"wind_direction\": %d,\"wind_intensity\": %d,\"rain_height\": %d, \"date\": %.f}", 
                         id, temperature, humidity, wind_direction, wind_intensity, rain_height, getTime());
 
@@ -149,7 +151,7 @@ static int ttn_pub(int argc, char **argv)
 	}
     char* id = argv[1];
     
-    /* step 1: publish random data periodically */
+    /* publish random data periodically */
     //while(1){
 		char* payload = buildPayload(id);
 		
