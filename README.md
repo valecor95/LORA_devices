@@ -20,7 +20,7 @@ Note: you can also use the RIOT development code (e.g the master branch) but thi
 
 Use the CLI-Tools to flash the ST LoRa node with the LoRaWAN firmware that you have just built. Here we use st-lrwan1-1 but it may change in your case:
 
-      iotlab-node --update tests/LORA_devices/bin/b-l072z-lrwan1/tests_pkg_semtech-loramac.elf -l saclay,st-lrwan1,1
+      iotlab-node --update tests/LORA_devices/bin/b-l072z-lrwan1/tests_LORA_devices.elf -l saclay,st-lrwan1,11
 
 You can now access the RIOT shell running on your node using netcat:
 
