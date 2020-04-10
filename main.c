@@ -135,23 +135,24 @@ static char* buildPayload(char* id){
     int wind_intensity = (rand() % (100 - 0 + 1)) + 0;
     int rain_height = (rand() % (50 - 0 + 1)) + 0;
 
-    char dateTime[20];
-    time_t now;
-    time(&now); // Gets the current date and time
-    struct tm* t = localtime(&now);
+    time_t timer;
+    struct tm y2k = {0};
+    double seconds;
 
-    //"dd-MM-yyyy HH:mm:ss"
-    // %F equivalent to "%Y-%m-%d" and %T to %H:%M:%S"
-    int res = strftime(dateTime, sizeof(dateTime), "%d-%m-%Y %T", t);
-    if(res == 0) {
-        printf("Error: parsing of dateTime failed!\n");
-        return NULL;
-    }
-    printf("DATA = %s", dateTime);
+    y2k.tm_hour = 0;   y2k.tm_min = 0; y2k.tm_sec = 0;
+    y2k.tm_year = 70; y2k.tm_mon = 0; y2k.tm_mday = 1;
+
+    time(&timer); 
+    timer = (unsigned long)time(NULL);
+
+    seconds = difftime(timer,mktime(&y2k));
+    char date[15];
+    sprintf(date, "%f", seconds);
+    printf("DATA = %s", date);
 
     char* payload = malloc(sizeof(char)*300);
 	sprintf(payload, "{\"deviceId\": \"%s\",\"temperature\": %d,\"humidity\": %d,\"wind_direction\": %d,\"wind_intensity\": %d,\"rain_height\": %d, \"date\": %s}", 
-                        id, temperature, humidity, wind_direction, wind_intensity, rain_height, dateTime);
+                        id, temperature, humidity, wind_direction, wind_intensity, rain_height, date);
 
     return payload;
 }
