@@ -108,25 +108,6 @@ static void loramac_send(char* payload){
 	printf("SUCCESS: %s\n", payload);
 }
 
-// Return seconds since January 1, 2000
-/*
-static double getTime(void){
-  time_t timer;
-  struct tm y2k = {0};
-  double seconds;
-
-  y2k.tm_hour = 0;   y2k.tm_min = 0; y2k.tm_sec = 0;
-  y2k.tm_year = 70; y2k.tm_mon = 0; y2k.tm_mday = 1;
-
-  time(&timer); 
-  timer = (unsigned long)time(NULL);
-
-  seconds = difftime(timer,mktime(&y2k));
-  
-  return seconds;
-}
-*/
-
 static char* buildPayload(char* id){
     srand(time(NULL));
 	int temperature = (rand() % (50 - (-50)) + 1) + (-50);
@@ -152,12 +133,12 @@ static int ttn_pub(int argc, char **argv)
     char* id = argv[1];
     
     /* publish random data periodically */
-    //while(1){
+    while(1){
 		char* payload = buildPayload(id);
 		
         loramac_send(payload);
-        //xtimer_sleep(5);
-	//}
+        xtimer_sleep(8);
+	}
 
     return 0;
 }
