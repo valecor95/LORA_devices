@@ -109,6 +109,7 @@ static void loramac_send(char* payload){
 }
 
 // Return seconds since January 1, 2000
+/*
 static double getTime(void){
   time_t timer;
   struct tm y2k = {0};
@@ -117,13 +118,14 @@ static double getTime(void){
   y2k.tm_hour = 0;   y2k.tm_min = 0; y2k.tm_sec = 0;
   y2k.tm_year = 70; y2k.tm_mon = 0; y2k.tm_mday = 1;
 
-  time(&timer);  /* get current time; same as: timer = time(NULL)  */
+  time(&timer); 
   timer = (unsigned long)time(NULL);
 
   seconds = difftime(timer,mktime(&y2k));
   
   return seconds;
 }
+*/
 
 static char* buildPayload(char* id){
     srand(time(NULL));
@@ -133,11 +135,22 @@ static char* buildPayload(char* id){
     int wind_intensity = (rand() % (100 - 0 + 1)) + 0;
     int rain_height = (rand() % (50 - 0 + 1)) + 0;
 
-    printf("DATA = %.f", getTime());
+    time_t timer;
+    struct tm y2k = {0};
+    double seconds;
+
+    y2k.tm_hour = 0;   y2k.tm_min = 0; y2k.tm_sec = 0;
+    y2k.tm_year = 70; y2k.tm_mon = 0; y2k.tm_mday = 1;
+
+    time(&timer); 
+    timer = (unsigned long)time(NULL);
+
+    seconds = difftime(timer,mktime(&y2k));
+    printf("DATA = %.f", seconds);
 
     char* payload = malloc(sizeof(char)*300);
 	sprintf(payload, "{\"deviceId\": \"%s\",\"temperature\": %d,\"humidity\": %d,\"wind_direction\": %d,\"wind_intensity\": %d,\"rain_height\": %d, \"date\": %.f}", 
-                        id, temperature, humidity, wind_direction, wind_intensity, rain_height, getTime());
+                        id, temperature, humidity, wind_direction, wind_intensity, rain_height, seconds);
 
     return payload;
 }
