@@ -32,6 +32,9 @@
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/_timespec.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/unistd.h \
  /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/unistd.h \
+ /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/signal.h \
+ /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/signal.h \
+ /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/_sigset.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/thread.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/clist.h \
  /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/list.h \
@@ -159,6 +162,12 @@
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/unistd.h:
 
 /opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/unistd.h:
+
+/opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/signal.h:
+
+/opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/signal.h:
+
+/opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/_sigset.h:
 
 /home/valerio/Scrivania/RIOT_devices/RIOT/core/include/thread.h:
 

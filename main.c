@@ -22,6 +22,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
+#include <signal.h>
 
 #ifdef MODULE_SEMTECH_LORAMAC_RX
 #include "thread.h"
@@ -123,6 +124,12 @@ static char* buildPayload(char* id){
     return payload;
 }
 
+void INThandler(int sig)
+{
+    signal(sig, SIG_IGN);
+    exit(EXIT_SUCCESS);
+}
+
 // Publish random values periodically (5 sec)
 static int ttn_pub(int argc, char **argv)
 {
@@ -132,6 +139,7 @@ static int ttn_pub(int argc, char **argv)
 	}
     char* id = argv[1];
     
+    signal(SIGINT, INThandler);
     /* publish random data periodically */
     while(1){
 		char* payload = buildPayload(id);
