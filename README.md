@@ -28,9 +28,9 @@ You can now access the RIOT shell running on your node using netcat:
 
 Now find the Device EUI, Application EUI and Application key information in the Overview tab of the iotlab-nodedevice on the TTN web console.Then set them to the RIOT firmware (replace the values with yours):
 
-      loramac set deveui 00FF18BFDE6B067F
-      loramac set appeui 70B3D57ED002D4DE
-      loramac set appkey 80E89FB64EACEF439CEF32DB2BBB9661
+      loramac set deveui 0000000000000000
+      loramac set appeui 0000000000000000
+      loramac set appkey 00000000000000000000000000000000
 
 You can also set a fast datarate, e.g. 5, corresponding to a bandwidth of 125kHz and a spreading factor of 7, since the nodes are very close to the gateway:
 
