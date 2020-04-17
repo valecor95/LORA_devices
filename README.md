@@ -6,7 +6,7 @@ Connect to the Saclay site host:
 
 Start an experiment with 1 node called riot_ttn
 
-      iotlab-auth -u coretti 
+      iotlab-auth -u <login> 
       iotlab-experiment submit -n riot_ttn -d 60 -l 1,archi=st-lrwan1:sx1276+site=saclay
 
 Remember the experiment identifier returned by the last command. It’ll be used in the commands shown below, <exp_id>. The requested experiment duration is 60 minutes. Wait a moment until the experiment is launched (state is Running) and get the nodes list. For the next steps of this tutorial we suppose that you obtained st-lrwan1-1.saclay.iot-lab.info
