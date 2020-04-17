@@ -1,3 +1,5 @@
+# LoRa Devices
+
 In this section, you will submit an experiment with one LoRa node on IoT-LAB, flash a RIOT firmware for LoRaWAN and connect the node to your application in the TTN network.
 
 Connect to the Saclay site host:
