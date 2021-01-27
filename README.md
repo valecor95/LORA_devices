@@ -4,7 +4,7 @@ In this section, you will submit an experiment with one LoRa node on IoT-LAB, fl
 
 Connect to the Saclay site host:
 
-      ssh coretti@saclay.iot-lab.info
+      ssh username@saclay.iot-lab.info
 
 Start an experiment with 1 node called riot_ttn
 
